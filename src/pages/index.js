@@ -30,7 +30,7 @@ export default function Home() {
       <div className="flex items-center justify-center mb-4">
         <input
           placeholder="github.com"
-          className="border border-black rounded py-2 px-4 mr-2 w-1/4 focus:outline-none"
+          className="border border-black rounded py-2 px-4 mr-2 w-1/2 focus:outline-none"
           value={siteName}
           onChange={changeHandler}
         />
