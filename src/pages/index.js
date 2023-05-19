@@ -31,8 +31,8 @@ export default function Home() {
       <Head>
         <title>What If Web - Go to a domain for fun</title>
       </Head>
-      <div className="container mx-auto py-8 bg-yellow-200">
-        <h1 className="text-3xl font-bold mb-4 text-center text-black">
+      <div className="container mx-auto py-2 bg-yellow-200">
+        <h1 className="text-3xl font-bold mb-2 text-center text-black">
           Enter a domain you want to visit
         </h1>
         <div className="flex items-center justify-center mb-4">
@@ -49,7 +49,6 @@ export default function Home() {
             Fetch
           </button>
         </div>
-        <hr className="mb-4" />
         <div className="p-4 bg-black rounded shadow-lg">
           <iframe
             className="w-full h-screen"
